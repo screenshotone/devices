@@ -21,4 +21,4 @@ To build and publish the library:
 
 ## License
 
-`screenshotone/devices` is released under [the MIT license](LICENSE).
+`screenshotone/devices` is released under [the Apache License 2.0](LICENSE).
