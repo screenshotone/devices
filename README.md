@@ -1,7 +1,7 @@
 # devices
 
 [![Build](https://github.com/screenshotone/devices/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/screenshotone/devices/actions/workflows/build.yml)
-[![NPM package](https://img.shields.io/npm/v/screenshotone-api-sdk.svg?branch=main)](https://www.npmjs.com/package/screenshotone-api-sdk)
+[![NPM package](https://img.shields.io/npm/v/screenshotone-devices.svg?branch=main)](https://www.npmjs.com/package/screenshotone-devices)
 
 A list of supported devices for [Screenshot API](https://screenshotone.com/) to emulate devices when generating screenshots.
 
