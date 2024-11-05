@@ -32,9 +32,10 @@ export interface Viewport {
 export interface Device {
     userAgent: string;
     viewport: Viewport;
+    name: string;
 }
 
-const knownDevices = [
+const knownDevices: Device[] = [
     {
         name: "Blackberry PlayBook",
         userAgent:
@@ -1790,9 +1791,9 @@ const knownDevices = [
             isLandscape: true,
         },
     },
-] as const;
+];
 
-const names = [];
+const names: string[] = [];
 const devices: Record<string, { id: string } & Device> = {};
 for (const knownDevice of knownDevices) {
     const key = knownDevice.name
